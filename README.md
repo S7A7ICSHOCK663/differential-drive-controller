@@ -1,22 +1,21 @@
-# differential-drive-controller
+# Differential Drive Controller
 
+A minimal, embedded motor-control project focused on building a clean
+differential-drive foundation for mobile robots.
 
-Goal: Build a clean, embedded differential-drive motor controller in C++.
+## Objectives
+- Implement PWM motor speed control
+- Control left/right motors independently
+- Build toward encoder feedback and PID speed regulation
 
-Hardware (fill in):
--Microcontroller:
--Motor driver:
--Motors:
--Power:
+## Repository Structure
+- `src/` — control code
+- `docs/` — diagrams and technical notes
 
+## Current Status
+- Repository initialized
+- Project structure created
 
-
-Planned Features:
--PWM motor control
--Differential drive (left/right)
--Encoders (optional)
--PID speed control (optional)
-
-
-Status:
--Repo Created
+## Next Steps
+- Spin a single DC motor using PWM
+- Add second motor for differential drive
